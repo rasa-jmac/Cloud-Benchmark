@@ -13,7 +13,7 @@ These utilities have been developed to assist you in calculating the overall siz
     - If asked, select `BASH` for your environment.
 + Execute the following command: 
 ```shell
-curl https://raw.githubusercontent.com/CrowdStrike/Cloud-Benchmark/main/benchmark.sh | /bin/bash
+curl https://raw.githubusercontent.com/rasa-jmac/Cloud-Benchmark/main/benchmark.sh | /bin/bash
 ```
 
 Results will be calculated and displayed directly to your terminal.
