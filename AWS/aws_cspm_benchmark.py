@@ -28,8 +28,8 @@ aws_account = {}
 aws_account["totals"] = {}
 filtered = []
 # filtered = ["us-west-2"]
-include = ["all"]
-# include = ["eu-west-2", "us-east-2", "us-west-1", "ap-southeast-2"]
+# include = ["all"]
+include = ["us-east-1","us-east-2","eu-west-1","eu-central-1"]
 checks = [
     ["ec2", "Reservations", "describe_instances", "MaxResults", "1000", "ec2"],
     ["rds", "DBInstances", "describe_db_instances", "MaxRecords", "100", "rds"],
