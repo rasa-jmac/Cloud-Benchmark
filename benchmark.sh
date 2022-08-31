@@ -8,7 +8,7 @@
 
 audit_AWS(){
   # AWS audit
-  curl -o aws_count.py https://raw.githubusercontent.com/CrowdStrike/Cloud-Benchmark/main/AWS/aws_cspm_benchmark.py
+  curl -o aws_count.py https://raw.githubusercontent.com/rasa-jmac/Cloud-Benchmark/main/AWS/aws_cspm_benchmark.py
   pip3 install --user tabulate
   python3 aws_count.py
   rm aws_count.py
